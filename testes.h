@@ -1,8 +1,18 @@
-#include <stdio.h>
+#include "classe.h"
 
-int main() {
+// 190134780
+class TUClasse {
+    private:
+        const static int VALOR_VALIDO   = 1;
+        const static int VALOR_INVALIDO = 4;
+        bool estado;
+        Classe *classe;
 
-    printf("Hello world!");
+        void setUp();
+        void tearDown();
+        void testarCenarioSucesso();
+        void testarCenarioFalha();
 
-    return 0;
-}
+    public:
+        bool run();
+};
