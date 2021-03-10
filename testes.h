@@ -1,4 +1,8 @@
+#ifndef TESTES_H_
+#define TESTES_H_
+
 #include "classe.h"
+#include "descricao.h"
 
 // 190134780
 class TUClasse {
@@ -16,3 +20,5 @@ class TUClasse {
     public:
         bool run();
 };
+
+#endif // TESTES_H_

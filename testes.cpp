@@ -1,3 +1,5 @@
+#include "testes.h"
+
 void TUClasse::setUp() {
     classe = new Classe;
     estado = true;
@@ -20,7 +22,7 @@ void TUClasse::testarCenarioFalha() {
         estado = false
     }
     catch (invalid_argument &excecao) {
-        if (classe->getValor == VALOR_INVALIDO)
+        if (classe->getValor() == VALOR_INVALIDO)
             estado = false;
     }
 }

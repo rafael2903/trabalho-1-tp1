@@ -25,6 +25,8 @@
 		</Compiler>
 		<Unit filename="classe.cpp" />
 		<Unit filename="classe.h" />
+		<Unit filename="descricao.cpp" />
+		<Unit filename="descricao.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="testes.cpp" />
 		<Unit filename="testes.h" />
