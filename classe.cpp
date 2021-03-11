@@ -8,5 +8,5 @@ void Classe::setValor(int valor) {
 }
 
 bool Classe::validar(int valor) {
-    return ( valor == 1 || valor == 2 || valor == 3 )
+    return ( valor == 1 || valor == 2 || valor == 3 );
 }
