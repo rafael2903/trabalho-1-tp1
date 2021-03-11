@@ -1,6 +1,6 @@
 #include "endereco_teste.hpp"
 
-void TUEndereco::instanciarClasse() {
+void TUEndereco::setUp() {
     endereco = new classeEndereco;
     estado = true;
 }
@@ -27,14 +27,16 @@ void TUEndereco::testarCenarioFalha() {
     }
 }
 
-void TUEndereco::liberarMemoria() {
+void TUEndereco::tearDown() {
     delete endereco;
 }
 
-bool TUEndereco::run(){
-    instanciarClasse();
+void TUEndereco::run(){
+    setUp();
     testarCenarioSucesso();
     testarCenarioFalha();
-    liberarMemoria();
-    return estado;
+    tearDown();
+
+    if (estado) cout << "SUCESSO - ENDERECO" << endl;
+    else cout << "FALHA - ENDERECO" << endl;
 }

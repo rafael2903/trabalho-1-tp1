@@ -34,10 +34,12 @@ void TUDescricao::tearDown() {
     delete descricao;
 }
 
-bool TUDescricao::run(){
+void TUDescricao::run(){
     setUp();
     testarCenarioSucesso();
     testarCenarioFalha();
     tearDown();
-    return estado;
+
+    if (estado) cout << "SUCESSO - DESCRICAO" << endl;
+    else cout << "FALHA - DESCRICAO" << endl;
 }

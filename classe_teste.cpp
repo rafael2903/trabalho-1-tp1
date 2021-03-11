@@ -31,10 +31,12 @@ void TUClasse::tearDown() {
     delete classe;
 }
 
-bool TUClasse::run(){
+void TUClasse::run(){
     setUp();
     testarCenarioSucesso();
     testarCenarioFalha();
     tearDown();
-    return estado;
+
+    if (estado) cout << "SUCESSO - CLASSE" << endl;
+    else cout << "FALHA - CLASSE" << endl;
 }

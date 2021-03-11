@@ -3,13 +3,14 @@
 
 #include <stdexcept>
 #include <string>
+#include <iostream>
 
 using namespace std;
 
 // 190134780
 class Descricao {
     private:
-        string valor;
+        string descricao;
         bool validar(string);
 
     public:
@@ -18,7 +19,7 @@ class Descricao {
 };
 
 inline string Descricao::getValor() {
-    return valor;
+    return descricao;
 }
 
 #endif  // DESCRICAO_HPP_

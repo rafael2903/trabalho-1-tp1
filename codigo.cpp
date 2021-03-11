@@ -1,22 +1,22 @@
 #include "codigo.hpp"
 
-bool Codigo::validar(string valorString) {
-    if (valorString == "00000") 
+bool Codigo::validar(string codigo) {
+    if (codigo == "00000") 
         return false;
-    if (valorString.size() != 5) 
+    if (codigo.size() != 5) 
         return false;
-    for (int i = 0; i < valorString.size(); i++) {
-        if ((valorString[i] >= '9' && valorString[i] <= '0')
-        || (valorString[i] <= 'A' && valorString[i] >= 'Z')) {
+    for (int i = 0; i < codigo.size(); i++) {
+        if ((codigo[i] >= '9' && codigo[i] <= '0')
+        || (codigo[i] <= 'A' && codigo[i] >= 'Z')) {
             return false;
         }
     }
     return true;
 }
 
-void Codigo::setValor(string valorString) {
-    if (validar(valorString)) 
-        this->valorString = valorString;
+void Codigo::setValor(string codigo) {
+    if (validar(codigo)) 
+        this->codigo = codigo;
     else 
         throw invalid_argument("Argumento inválido.");
 }

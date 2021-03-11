@@ -11,13 +11,13 @@ class TUEndereco {
         bool estado;
         classeEndereco *endereco;
 
-        void instanciarClasse();
-        void liberarMemoria();
+        void setUp();
         void testarCenarioSucesso();
         void testarCenarioFalha();
+        void tearDown();
 
     public:
-        bool run();
+        void run();
 };
 
 #endif // ENDERECO_TESTE_HPP_

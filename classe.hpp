@@ -2,13 +2,14 @@
 #define CLASSE_HPP_
 
 #include <stdexcept>
+#include <iostream>
 
 using namespace std;
 
 // 190134780
 class Classe {
     private:
-        int valor;
+        int classe;
         bool validar(int);
 
     public:
@@ -17,7 +18,7 @@ class Classe {
 };
 
 inline int Classe::getValor() {
-    return valor;
+    return classe;
 }
 
 #endif  // CLASSE_HPP_

@@ -1,30 +1,21 @@
-#include <iostream>
-
 #include "classe_teste.hpp"
 #include "codigo_teste.hpp"
 #include "descricao_teste.hpp"
 #include "endereco_teste.hpp"
 
-using namespace std;
-
 int main() {
 
     TUClasse testeClasse;
-
-    if (testeClasse.run()) {
-        cout << "SUCESSO - CLASSE" << endl;
-    } else {
-        cout << "FALHA - CLASSE" << endl;
-    }
+    testeClasse.run();
 
     TUDescricao testeDescricao;
+    testeDescricao.run();
 
-    if (testeDescricao.run()) {
-        cout << "SUCESSO - DESCRICAO" << endl;
-    } else {
-        cout << "FALHA - DESCRICAO" << endl;
-    }
+    TUCodigo testeCodigo;
+    testeCodigo.run();
 
+    TUEndereco testeEndereco;
+    testeEndereco.run();
 
     return 0;
 }

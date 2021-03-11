@@ -9,17 +9,17 @@ using namespace std;
 
 // 190016841
 class Codigo {
-   private:
-      string valorString;
-      bool validar(string);
-      
-   public:
-      void setValor(string);
-      string getValor();
+    private:
+        string codigo;
+        bool validar(string);
+        
+    public:
+        void setValor(string);
+        string getValor();
 };
 
 inline string Codigo::getValor() {
-   return valorString;
+    return codigo;
 }
 
 #endif // CODIGO_HPP_

@@ -6,21 +6,23 @@
 // . ou espaco
 
 bool classeEndereco::validar(string endereco) {
+    if (endereco.size() > 20 || endereco.size() < 5) 
+        return false;
 
-    if (endereco.size() > 20 || endereco.size() < 5) return false;
-    for(int contador=0; contador < endereco.size(); contador++ ) {
-            if((endereco[contador] <= 'A' && endereco[contador] >= 'Z') 
-            || (endereco[contador] <= 'a' && endereco[contador] >= 'z')
-            || (endereco[contador] <= '0' && endereco[contador] <= '9')
-            || (endereco[contador] != '.' && endereco[contador] != ' ')) {
-                return false;
-            }
-    } return true;
-
+    for (int i = 0; i < endereco.size(); i++) {
+        if ((endereco[i] <= 'A' && endereco[i] >= 'Z') 
+        || (endereco[i] <= 'a' && endereco[i] >= 'z')
+        || (endereco[i] <= '0' && endereco[i] <= '9')
+        || (endereco[i] != '.' && endereco[i] != ' ')) {
+            return false;
+        }
+    } 
+    return true;
 }
 
 void classeEndereco::setEndereco(string endereco) {
-
-    if(validar(endereco)) this->endereco = endereco;
-    else throw invalid_argument("Argumento invalido");
+    if(validar(endereco)) 
+        this->endereco = endereco;
+    else 
+        throw invalid_argument("Argumento invalido");
 }

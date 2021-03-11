@@ -1,12 +1,12 @@
 #include "classe.hpp"
 
-void Classe::setValor(int valor) {
-    if (validar(valor))
-        this->valor = valor;
+void Classe::setValor(int classe) {
+    if (validar(classe))
+        this->classe = classe;
     else
         throw invalid_argument("Argumento invalido.");
 }
 
-bool Classe::validar(int valor) {
-    return ( valor == 1 || valor == 2 || valor == 3 );
+bool Classe::validar(int classe) {
+    return (classe == 1 || classe == 2 || classe == 3);
 }

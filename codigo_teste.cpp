@@ -37,6 +37,7 @@ void TUCodigo::run(){
     testarCenarioSucesso();
     testarCenarioFalha();
     tearDown();
-    if (estado) cout << "Passou nos testes!" << endl;
-    else cout << "Falhou nos testes!" << endl;
+    
+    if (estado) cout << "SUCESSO - CODIGO" << endl;
+    else cout << "FALHA - CODIGO" << endl;
 }

@@ -24,12 +24,22 @@
 			<Add option="-fexceptions" />
 		</Compiler>
 		<Unit filename="classe.cpp" />
-		<Unit filename="classe.h" />
+		<Unit filename="classe.hpp" />
+		<Unit filename="classe_teste.cpp" />
+		<Unit filename="classe_teste.hpp" />
+		<Unit filename="codigo.cpp" />
+		<Unit filename="codigo.hpp" />
+		<Unit filename="codigo_teste.cpp" />
+		<Unit filename="codigo_teste.hpp" />
 		<Unit filename="descricao.cpp" />
-		<Unit filename="descricao.h" />
+		<Unit filename="descricao.hpp" />
+		<Unit filename="descricao_teste.cpp" />
+		<Unit filename="descricao_teste.hpp" />
+		<Unit filename="endereco.cpp" />
+		<Unit filename="endereco.hpp" />
+		<Unit filename="endereco_teste.cpp" />
+		<Unit filename="endereco_teste.hpp" />
 		<Unit filename="main.cpp" />
-		<Unit filename="testes.cpp" />
-		<Unit filename="testes.h" />
 		<Extensions>
 			<lib_finder disable_auto="1" />
 		</Extensions>

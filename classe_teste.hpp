@@ -17,7 +17,7 @@ class TUClasse {
         void tearDown();
 
     public:
-        bool run();
+        void run();
 };
 
 #endif // CLASSE_TESTE_HPP_

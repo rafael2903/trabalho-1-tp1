@@ -3,6 +3,7 @@
 
 #include <stdexcept>
 #include <string>
+#include <iostream>
 
 using namespace std;
 
@@ -11,6 +12,7 @@ class classeEndereco {
     private:
         string endereco;
         bool validar(string);
+        
     public:
         void setEndereco(string);
         string getEndereco();

@@ -1,8 +1,7 @@
 #ifndef DESCRICAO_TESTE_HPP_
 #define DESCRICAO_TESTE_HPP_
 
-#include <string>
-#include "descricao.h"
+#include "descricao.hpp"
 
 // 190134780
 class TUDescricao {
@@ -18,7 +17,7 @@ class TUDescricao {
         void tearDown();
 
     public:
-        bool run();
+        void run();
 };
 
 #endif // DESCRICAO_TESTE_HPP_
