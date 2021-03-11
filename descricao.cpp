@@ -1,4 +1,4 @@
-#include "descricao.h"
+#include "descricao.hpp"
 
 void Descricao::setValor(string valor) {
     if (validar(valor))
@@ -8,7 +8,6 @@ void Descricao::setValor(string valor) {
 }
 
 bool Descricao::validar(string valor) {
-    
     int length = valor.length();
     int last_character = valor[length - 1];
     

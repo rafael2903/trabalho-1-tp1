@@ -1,7 +1,5 @@
 #include "endereco_teste.hpp"
 
-//190142120
-
 void TUEndereco::instanciarClasse() {
     endereco = new classeEndereco;
     estado = true;

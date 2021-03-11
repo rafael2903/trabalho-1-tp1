@@ -1,7 +1,5 @@
-#ifndef CODIGO_H_
-#define CODIGO_H_
-
-// 190016841
+#ifndef CODIGO_HPP_
+#define CODIGO_HPP_
 
 #include <stdexcept>
 #include <string>
@@ -9,17 +7,19 @@
 
 using namespace std;
 
+// 190016841
 class Codigo {
- private:
-    string valorString;
-    bool validar(string);
- public:
-    void setValor(string);
-    string getValor();
+   private:
+      string valorString;
+      bool validar(string);
+      
+   public:
+      void setValor(string);
+      string getValor();
 };
 
 inline string Codigo::getValor() {
    return valorString;
 }
 
-#endif // CODIGO_H_
+#endif // CODIGO_HPP_

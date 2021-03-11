@@ -1,5 +1,5 @@
-#ifndef DESCRICAO_H_
-#define DESCRICAO_H_
+#ifndef DESCRICAO_HPP_
+#define DESCRICAO_HPP_
 
 #include <stdexcept>
 #include <string>
@@ -21,4 +21,4 @@ inline string Descricao::getValor() {
     return valor;
 }
 
-#endif  // DESCRICAO_H_
+#endif  // DESCRICAO_HPP_

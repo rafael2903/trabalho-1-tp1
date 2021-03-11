@@ -1,4 +1,4 @@
-#include "classe.h"
+#include "classe.hpp"
 
 void Classe::setValor(int valor) {
     if (validar(valor))

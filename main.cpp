@@ -1,6 +1,9 @@
 #include <iostream>
 
-#include "testes.h"
+#include "classe_teste.hpp"
+#include "codigo_teste.hpp"
+#include "descricao_teste.hpp"
+#include "endereco_teste.hpp"
 
 using namespace std;
 

@@ -1,7 +1,5 @@
 #include "codigo_teste.hpp"
 
-// 190016841
-
 void TUCodigo::setUp() {
     codigo = new Codigo;
     estado = true;
