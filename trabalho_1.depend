@@ -1,8 +1,25 @@
 # depslib dependency file v1.0
-1614905978 source:d:\users\rafae\desktop\unb\matérias\3º semestre\tp1\trabalho_1\trabalho_1_tp1\trabalho_1\classe.cpp
+1615381897 source:d:\users\rafae\desktop\unb\matérias\3º semestre\tp1\trabalho_1\trabalho_1_tp1\trabalho_1\classe.cpp
+	"classe.h"
 
-1584205420 source:d:\users\rafae\desktop\unb\matérias\3º semestre\tp1\trabalho_1\trabalho_1_tp1\trabalho_1\main.cpp
+1615422412 source:d:\users\rafae\desktop\unb\matérias\3º semestre\tp1\trabalho_1\trabalho_1_tp1\trabalho_1\main.cpp
 	<iostream>
+	"testes.h"
 
 1614906015 source:d:\users\rafae\desktop\unb\matérias\3º semestre\tp1\trabalho_1\trabalho_1_tp1\trabalho_1\testes.cpp
+
+1615250077 d:\users\rafae\desktop\unb\matérias\3º semestre\tp1\trabalho_1\trabalho_1_tp1\trabalho_1\classe.h
+	<stdexcept>
+
+1615420118 source:d:\users\rafae\desktop\unb\matérias\3º semestre\tp1\trabalho_1\trabalho_1_tp1\trabalho_1\descricao.cpp
+	"descricao.h"
+
+1615382000 d:\users\rafae\desktop\unb\matérias\3º semestre\tp1\trabalho_1\trabalho_1_tp1\trabalho_1\descricao.h
+	<stdexcept>
+	<string>
+
+1615421197 d:\users\rafae\desktop\unb\matérias\3º semestre\tp1\trabalho_1\trabalho_1_tp1\trabalho_1\testes.h
+	<string>
+	"classe.h"
+	"descricao.h"
 

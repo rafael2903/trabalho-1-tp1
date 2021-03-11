@@ -8,5 +8,9 @@ void Descricao::setValor(string valor) {
 }
 
 bool Descricao::validar(string valor) {
-    return true;
+    
+    int length = valor.length();
+    int last_character = valor[length - 1];
+    
+    return (length > 5 && length < 30 && last_character == '.' );
 }
