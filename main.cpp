@@ -3,6 +3,7 @@
 #include "descricao_teste.hpp"
 #include "endereco_teste.hpp"
 #include "senha_teste.hpp"
+#include "moeda_teste.hpp"
 
 int main() {
 
@@ -20,6 +21,9 @@ int main() {
 
     TUSenha testeSenha;
     testeSenha.run();
+
+    TUMoeda testeMoeda;
+    testeMoeda.run();
 
     return 0;
 }
