@@ -7,9 +7,9 @@
 class TUCodigo {
     private:
         string VALOR_VALIDO = "12A45";
-        string VALOR_INVALIDO = "0000";
+        string VALOR_INVALIDO = "00000";
         bool estado;
-        Codigo *codigo;
+        Codigo *objeto;
 
         void setUp();
         void testarCenarioSucesso();

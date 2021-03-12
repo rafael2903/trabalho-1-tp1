@@ -2,6 +2,7 @@
 #include "codigo_teste.hpp"
 #include "descricao_teste.hpp"
 #include "endereco_teste.hpp"
+#include "senha_teste.hpp"
 
 int main() {
 
@@ -16,6 +17,9 @@ int main() {
 
     TUEndereco testeEndereco;
     testeEndereco.run();
+
+    TUSenha testeSenha;
+    testeSenha.run();
 
     return 0;
 }

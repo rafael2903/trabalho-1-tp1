@@ -1,11 +1,11 @@
-#include "codigo_teste.hpp"
+#include "senha_teste.hpp"
 
-void TUCodigo::setUp() {
-    objeto = new Codigo;
+void TUSenha::setUp() {
+    objeto = new Senha;
     estado = true;
 }
 
-void TUCodigo::testarCenarioSucesso() { //12A45
+void TUSenha::testarCenarioSucesso() { //12A45
     try {
         objeto->setValor(VALOR_VALIDO);
         if (objeto->getValor() != VALOR_VALIDO)
@@ -16,7 +16,7 @@ void TUCodigo::testarCenarioSucesso() { //12A45
     }
 }
 
-void TUCodigo::testarCenarioFalha() { // 00000
+void TUSenha::testarCenarioFalha() { // 00000
     try {
         objeto->setValor(VALOR_INVALIDO);
         estado = false;
@@ -27,16 +27,16 @@ void TUCodigo::testarCenarioFalha() { // 00000
     }
 }
 
-void TUCodigo::tearDown() {
+void TUSenha::tearDown() {
     delete objeto;
 }
 
-void TUCodigo::run(){
+void TUSenha::run(){
     setUp();
     testarCenarioSucesso();
     testarCenarioFalha();
     tearDown();
     
-    if (estado) cout << "SUCESSO - CODIGO" << endl;
-    else cout << "FALHA - CODIGO" << endl;
+    if (estado) cout << "SUCESSO - SENHA" << endl;
+    else cout << "FALHA - SENHA" << endl;
 }
