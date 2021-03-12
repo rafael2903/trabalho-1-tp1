@@ -4,6 +4,7 @@
 #include "endereco_teste.hpp"
 #include "senha_teste.hpp"
 #include "moeda_teste.hpp"
+#include "numero_teste.hpp"
 
 int main() {
 
@@ -24,6 +25,9 @@ int main() {
 
     TUMoeda testeMoeda;
     testeMoeda.run();
+    
+    TUNumero testeNumero;
+    testeNumero.run();
 
     return 0;
 }
