@@ -6,14 +6,14 @@
 // . ou espaco
 
 bool classeEndereco::validar(string endereco) {
-    if (endereco.size() > 20 || endereco.size() < 5) 
+    if (endereco.length() > 20 || endereco.length() < 5) 
         return false;
 
-    for (int i = 0; i < endereco.size(); i++) {
-        if ((endereco[i] <= 'A' && endereco[i] >= 'Z') 
-        || (endereco[i] <= 'a' && endereco[i] >= 'z')
-        || (endereco[i] <= '0' && endereco[i] <= '9')
-        || (endereco[i] != '.' && endereco[i] != ' ')) {
+    for (int i = 0; i < endereco.length(); i++) {
+        if ((endereco[i] < 'A' || endereco[i] > 'Z') 
+        && (endereco[i] < 'a' || endereco[i] > 'z')
+        && (endereco[i] < '0' || endereco[i] > '9')
+        && (endereco[i] != '.' && endereco[i] != ' ')) {
             return false;
         }
     } 
