@@ -10,6 +10,12 @@ bool Data::validar(string data) {
     // verifica separadores
     if(data[2] != '-' || data[5] != '-') return false;
 
+    // verifica digitos
+    for(int i = 0; i < data.size(); i++) {
+        if (i == 2 || i == 5) continue;
+        if (data[i] < '0' || data[i] > '9') return false;
+    }
+
     // separa substrings
     string day = data.substr(0, 2);
     string month = data.substr(3, 2);

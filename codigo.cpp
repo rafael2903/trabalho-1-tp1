@@ -4,12 +4,16 @@
 #include "codigo.hpp"
 
 bool Codigo::validar(string codigo) {
+
+    // verifica sequência específica inválida
     if (codigo == "00000") 
         return false;
 
+    // verifica tamanho
     if (codigo.length() != 5) 
         return false;
 
+    // verifica caracteres válidos
     for (int i = 0; i < codigo.length(); i++) {
         if ((codigo[i] >= '9' && codigo[i] <= '0')
         || (codigo[i] <= 'A' && codigo[i] >= 'Z')) {

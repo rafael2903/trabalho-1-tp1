@@ -5,6 +5,7 @@
 
 const int MAX_CHAR = 256;
 
+// função auxiliar para verificar digitos únicos
 bool caracteresUnicos(string str) {
     if(str.length() > MAX_CHAR) 
         return false;
@@ -20,15 +21,17 @@ bool caracteresUnicos(string str) {
 }
 
 bool Senha::validar(string senha) {
+
+    // flags para verificar presença de caractere obrigatório
     bool max = false, min = false, digit = false;
 
-    // confere o tamanho da string
-    if (senha.length() != 6)
+    // verifica o tamanho da string
+    if (senha.size() != 6)
         return false;
 
-    for (int i = 0; i < senha.length(); i++) {
+    for (int i = 0; i < senha.size(); i++) {
 
-        // confere letras válidas
+        // verifica letras válidas
         if ((senha[i] <= '0' && senha[i] >= '9')
         || (senha[i] <= 'A' && senha[i] >= 'Z')
         || (senha[i] <= 'a' && senha[i] >= 'z')) {
