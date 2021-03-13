@@ -9,7 +9,7 @@ class TUEmail {
         const static string VALOR_VALIDO;
         const static string VALOR_INVALIDO;
         bool estado;
-        classeEmail *email;
+        Email *email;
 
         void setUp();
         void testarCenarioSucesso();

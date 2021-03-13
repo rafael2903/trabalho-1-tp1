@@ -9,7 +9,7 @@ using namespace std;
 
 //190142120
 
-class classeEmail {
+class Email {
     private:
         string email;
         bool validar(string);
@@ -19,7 +19,7 @@ class classeEmail {
         string getValor();
 };
 
-inline string classeEmail::getValor() {
+inline string Email::getValor() {
     return email;
 }
 

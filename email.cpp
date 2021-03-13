@@ -1,7 +1,8 @@
 #include "email.hpp"
 //190142120
 
-bool classeEmail::validar(string email) {
+bool Email::validar(string email) {
+    //separa o nome de dominio 
     string delimiter = "@";
     string nome = email.substr(0,email.find(delimiter));
     string dominio = email.substr(email.find(delimiter) + 1, email.size()-1);
@@ -30,7 +31,7 @@ bool classeEmail::validar(string email) {
     return true;
 }
 
-void classeEmail::setValor(string email) {
+void Email::setValor(string email) {
     if (validar(email)) 
         this->email = email;
     else 

@@ -6,7 +6,7 @@ const string TUEmail::VALOR_VALIDO = "ana@ola.com";
 const string TUEmail::VALOR_INVALIDO = "ana@..a";
 
 void TUEmail::setUp() {
-    email = new classeEmail;
+    email = new Email;
     estado = true;
 }
 
