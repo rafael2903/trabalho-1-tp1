@@ -1,3 +1,6 @@
+// Aluno: Luis Fernando Lamellas
+// Matrícula: 190016841
+
 #include "moeda_teste.hpp"
 
 void TUMoeda::setUp() {

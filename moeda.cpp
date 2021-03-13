@@ -1,3 +1,6 @@
+// Aluno: Luis Fernando Lamellas
+// Matrícula: 190016841
+
 #include "moeda.hpp"
 
 bool Moeda::validar(double valor) {

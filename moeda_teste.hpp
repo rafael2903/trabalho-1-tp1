@@ -1,9 +1,11 @@
+// Aluno: Luis Fernando Lamellas
+// Matrícula: 190016841
+
 #ifndef MOEDA_TESTE_HPP_
 #define MOEDA_TESTE_HPP_
 
 #include "moeda.hpp"
 
-// 190016841
 class TUMoeda {
     private:
         double VALOR_VALIDO = 10000;

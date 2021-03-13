@@ -1,9 +1,11 @@
+// Aluno: Luis Fernando Lamellas
+// Matrícula: 190016841
+
 #ifndef TELEFONE_TESTE_HPP_
 #define TELEFONE_TESTE_HPP_
 
 #include "telefone.hpp"
 
-// 190016841
 class TUTelefone {
     private:
         string VALOR_VALIDO   = "(061)-123456789";

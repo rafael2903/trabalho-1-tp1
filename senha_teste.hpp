@@ -1,3 +1,6 @@
+// Aluno: Luis Fernando Lamellas
+// Matrícula: 190016841
+
 #ifndef SENHA_TESTE_HPP_
 #define SENHA_TESTE_HPP_
 

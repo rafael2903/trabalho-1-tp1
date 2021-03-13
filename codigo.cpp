@@ -1,3 +1,6 @@
+// Aluno: Luis Fernando Lamellas
+// Matrícula: 190016841
+
 #include "codigo.hpp"
 
 bool Codigo::validar(string codigo) {

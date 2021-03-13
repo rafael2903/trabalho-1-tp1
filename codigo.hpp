@@ -1,3 +1,6 @@
+// Aluno: Luis Fernando Lamellas
+// Matrícula: 190016841
+
 #ifndef CODIGO_HPP_
 #define CODIGO_HPP_
 
@@ -7,7 +10,6 @@
 
 using namespace std;
 
-// 190016841
 class Codigo {
     private:
         string codigo;

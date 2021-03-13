@@ -1,3 +1,6 @@
+// Aluno: Luis Fernando Lamellas
+// Matrícula: 190016841
+
 #include "senha.hpp"
 
 const int MAX_CHAR = 256;
