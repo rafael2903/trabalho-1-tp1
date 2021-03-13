@@ -10,10 +10,6 @@ void TUUsuario::setUp() {
     estado = true;
 }
 
-void TUUsuario::tearDown() {
-    delete usuario;
-}
-
 void TUUsuario::testarCenario() {
     Nome nome;
     nome.setValor(VALOR_NOME_VALIDO);
@@ -42,14 +38,19 @@ void TUUsuario::testarCenario() {
     if (usuario->getTelefone().getValor() != VALOR_TELEFONE_VALIDO){
         estado = false;
     }
-}    
+}
+
+void TUUsuario::tearDown() {
+    delete usuario;
+}
 
 void TUUsuario::run() {
     setUp();
     testarCenario();
-    if(estado) cout << "SUCESSO - USUARIO" << endl;
-    else cout << "FALHA - USUARIOA" << endl;
     tearDown();
+
+    if(estado) cout << "SUCESSO - USUARIO" << endl;
+    else cout << "FALHA - USUARIO" << endl;
 }
 
 

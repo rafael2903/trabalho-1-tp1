@@ -16,7 +16,7 @@ class Proposta {
         Codigo codigo;
         Data dataInicial;
         Data dataFinal;
-        classeNumero hospedes;
+        Numero hospedes;
         Moeda valor;
 
     public:
@@ -29,8 +29,8 @@ class Proposta {
         void setDataFinal(const Data&);
         Data getDataFinal() const;
 
-        void setHospedes(const classeNumero&);
-        classeNumero getHospedes() const;
+        void setHospedes(const Numero&);
+        Numero getHospedes() const;
 
         void setValor(const Moeda&);
         Moeda getValor() const;
@@ -57,10 +57,10 @@ inline Data Proposta::getDataFinal() const {
     return dataFinal;
 }
 
-inline void Proposta::setHospedes(const classeNumero &numero) {
+inline void Proposta::setHospedes(const Numero &numero) {
     this->hospedes = numero;
 }
-inline classeNumero Proposta::getHospedes() const {
+inline Numero Proposta::getHospedes() const {
     return hospedes;
 }
 

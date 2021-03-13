@@ -7,17 +7,17 @@
 using namespace std;
 
 //190142120
-class classeNumero {
+class Numero {
     private:
         int numero;
         bool validar(int);
         
     public:
-        void setNumero(int);
-        int getNumero();
+        void setValor(int);
+        int getValor();
 };
 
-inline int classeNumero::getNumero() {
+inline int Numero::getValor() {
     return numero;
 }
 

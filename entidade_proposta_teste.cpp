@@ -8,10 +8,6 @@ void TUProposta::setUp() {
     estado = true;
 }
 
-void TUProposta::tearDown() {
-    delete entidade;
-}
-
 void TUProposta::testarCenario() {
     Codigo codigo;
     codigo.setValor(VALOR_VALIDO_CODIGO);
@@ -28,10 +24,10 @@ void TUProposta::testarCenario() {
     entidade->setDataFinal(dataFinal);
     if(entidade->getDataFinal().getValor() != VALOR_VALIDO_DATA_FINAL) estado = false;
 
-    classeNumero hospedes;
-    hospedes.setNumero(VALOR_VALIDO_HOSPEDES);
+    Numero hospedes;
+    hospedes.setValor(VALOR_VALIDO_HOSPEDES);
     entidade->setHospedes(hospedes);
-    if(entidade->getHospedes().getNumero() != VALOR_VALIDO_HOSPEDES) estado = false;
+    if(entidade->getHospedes().getValor() != VALOR_VALIDO_HOSPEDES) estado = false;
 
     Moeda valor;
     valor.setValor(VALOR_VALIDO_MOEDA);
@@ -39,10 +35,15 @@ void TUProposta::testarCenario() {
     if(entidade->getValor().getValor() != VALOR_VALIDO_MOEDA) estado = false;
 }
 
+void TUProposta::tearDown() {
+    delete entidade;
+}
+
 void TUProposta::run() {
     setUp();
     testarCenario();
+    tearDown();
+
     if(estado) cout << "SUCESSO - PROPOSTA" << endl;
     else cout << "FALHA - PROPOSTA" << endl;
-    tearDown();
 }

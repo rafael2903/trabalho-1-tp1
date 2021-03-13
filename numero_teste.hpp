@@ -9,7 +9,7 @@ class TUNumero {
         const static int VALOR_VALIDO = 12;
         const static int VALOR_INVALIDO = 23;
         bool estado;
-        classeNumero *numero;
+        Numero *numero;
 
         void setUp();
         void testarCenarioSucesso();

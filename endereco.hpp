@@ -8,17 +8,17 @@
 using namespace std;
 
 //190142120
-class classeEndereco {
+class Endereco {
     private:
         string endereco;
         bool validar(string);
         
     public:
-        void setEndereco(string);
-        string getEndereco();
+        void setValor(string);
+        string getValor();
 };
 
-inline string classeEndereco::getEndereco() {
+inline string Endereco::getValor() {
     return endereco;
 }
 

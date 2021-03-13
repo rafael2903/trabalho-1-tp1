@@ -1,14 +1,14 @@
 #include "endereco_teste.hpp"
 
 void TUEndereco::setUp() {
-    endereco = new classeEndereco;
+    endereco = new Endereco;
     estado = true;
 }
 
 void TUEndereco::testarCenarioSucesso() {
     try {
-        endereco->setEndereco(VALOR_VALIDO);
-        if (endereco->getEndereco() != VALOR_VALIDO)
+        endereco->setValor(VALOR_VALIDO);
+        if (endereco->getValor() != VALOR_VALIDO)
             estado = false;
     }
     catch (invalid_argument &excecao) {
@@ -18,11 +18,11 @@ void TUEndereco::testarCenarioSucesso() {
 
 void TUEndereco::testarCenarioFalha() {
     try {
-        endereco->setEndereco(VALOR_INVALIDO);
+        endereco->setValor(VALOR_INVALIDO);
         estado = false;
     }
     catch (invalid_argument &excecao) {
-        if (endereco->getEndereco() == VALOR_INVALIDO)
+        if (endereco->getValor() == VALOR_INVALIDO)
             estado = false;
     }
 }

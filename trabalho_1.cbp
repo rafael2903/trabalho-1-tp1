@@ -64,8 +64,25 @@
 		<Unit filename="telefone.hpp" />
 		<Unit filename="telefone_teste.cpp" />
 		<Unit filename="telefone_teste.hpp" />
+		<Unit filename="email.cpp" />
+		<Unit filename="email.hpp" />
+		<Unit filename="email_teste.cpp" />
+		<Unit filename="email_teste.hpp" />
+		<Unit filename="entidade_proposta.cpp" />
+		<Unit filename="entidade_proposta.hpp" />
+		<Unit filename="entidade_proposta_teste.cpp" />
+		<Unit filename="entidade_proposta_teste.hpp" />
+		<Unit filename="entidade_usuario.cpp" />
+		<Unit filename="entidade_usuario.hpp" />
+		<Unit filename="entidade_usuario_teste.cpp" />
+		<Unit filename="entidade_usuario_teste.hpp" />
+		<Unit filename="entidade_imovel.cpp" />
+		<Unit filename="entidade_imovel.hpp" />
+		<Unit filename="entidade_imovel_teste.cpp" />
+		<Unit filename="entidade_imovel_teste.hpp" />
 		<Extensions>
 			<lib_finder disable_auto="1" />
 		</Extensions>
 	</Project>
 </CodeBlocks_project_file>
+

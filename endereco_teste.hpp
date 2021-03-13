@@ -9,7 +9,7 @@ class TUEndereco {
         string VALOR_VALIDO   = "Ana mora em. 407.";
         string VALOR_INVALIDO = "Ana//    ";
         bool estado;
-        classeEndereco *endereco;
+        Endereco *endereco;
 
         void setUp();
         void testarCenarioSucesso();

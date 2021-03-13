@@ -1,13 +1,13 @@
 #include "numero.hpp"
 
-bool classeNumero::validar(int numero) {
+bool Numero::validar(int numero) {
     if (numero < 0 || numero > 20 ) {
         return false;
     }
     return true;
 }
 
-void classeNumero::setNumero(int numero) {
+void Numero::setValor(int numero) {
     if (validar(numero)) 
         this->numero = numero;
     else 

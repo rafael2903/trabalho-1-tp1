@@ -2,7 +2,7 @@
 1615593625 source:d:\users\rafae\desktop\unb\matérias\3º semestre\tp1\trabalho_1\trabalho_1_tp1\trabalho_1\classe.cpp
 	"classe.hpp"
 
-1615597236 source:d:\users\rafae\desktop\unb\matérias\3º semestre\tp1\trabalho_1\trabalho_1_tp1\trabalho_1\main.cpp
+1615673413 source:d:\users\rafae\desktop\unb\matérias\3º semestre\tp1\trabalho_1\trabalho_1_tp1\trabalho_1\main.cpp
 	"classe_teste.hpp"
 	"codigo_teste.hpp"
 	"descricao_teste.hpp"
@@ -10,8 +10,13 @@
 	"senha_teste.hpp"
 	"moeda_teste.hpp"
 	"numero_teste.hpp"
+	"email_teste.hpp"
 	"nome_teste.hpp"
 	"data_teste.hpp"
+	"telefone_teste.hpp"
+	"entidade_proposta_teste.hpp"
+	"entidade_usuario_teste.hpp"
+	"entidade_imovel_teste.hpp"
 
 1614906015 source:d:\users\rafae\desktop\unb\matérias\3º semestre\tp1\trabalho_1\trabalho_1_tp1\trabalho_1\testes.cpp
 
@@ -45,32 +50,32 @@
 1615465345 d:\users\rafae\desktop\unb\matérias\3º semestre\tp1\trabalho_1\trabalho_1_tp1\trabalho_1\classe_teste.hpp
 	"classe.hpp"
 
-1615507280 source:d:\users\rafae\desktop\unb\matérias\3º semestre\tp1\trabalho_1\trabalho_1_tp1\trabalho_1\codigo.cpp
+1615667555 source:d:\users\rafae\desktop\unb\matérias\3º semestre\tp1\trabalho_1\trabalho_1_tp1\trabalho_1\codigo.cpp
 	"codigo.hpp"
 
-1615465558 d:\users\rafae\desktop\unb\matérias\3º semestre\tp1\trabalho_1\trabalho_1_tp1\trabalho_1\codigo.hpp
+1615667555 d:\users\rafae\desktop\unb\matérias\3º semestre\tp1\trabalho_1\trabalho_1_tp1\trabalho_1\codigo.hpp
 	<stdexcept>
 	<string>
 	<iostream>
 
-1615591894 source:d:\users\rafae\desktop\unb\matérias\3º semestre\tp1\trabalho_1\trabalho_1_tp1\trabalho_1\codigo_teste.cpp
+1615667555 source:d:\users\rafae\desktop\unb\matérias\3º semestre\tp1\trabalho_1\trabalho_1_tp1\trabalho_1\codigo_teste.cpp
 	"codigo_teste.hpp"
 
-1615591694 d:\users\rafae\desktop\unb\matérias\3º semestre\tp1\trabalho_1\trabalho_1_tp1\trabalho_1\codigo_teste.hpp
+1615667555 d:\users\rafae\desktop\unb\matérias\3º semestre\tp1\trabalho_1\trabalho_1_tp1\trabalho_1\codigo_teste.hpp
 	"codigo.hpp"
 
-1615509654 source:d:\users\rafae\desktop\unb\matérias\3º semestre\tp1\trabalho_1\trabalho_1_tp1\trabalho_1\endereco.cpp
+1615672792 source:d:\users\rafae\desktop\unb\matérias\3º semestre\tp1\trabalho_1\trabalho_1_tp1\trabalho_1\endereco.cpp
 	"endereco.hpp"
 
-1615465516 d:\users\rafae\desktop\unb\matérias\3º semestre\tp1\trabalho_1\trabalho_1_tp1\trabalho_1\endereco.hpp
+1615672779 d:\users\rafae\desktop\unb\matérias\3º semestre\tp1\trabalho_1\trabalho_1_tp1\trabalho_1\endereco.hpp
 	<stdexcept>
 	<string>
 	<iostream>
 
-1615593807 source:d:\users\rafae\desktop\unb\matérias\3º semestre\tp1\trabalho_1\trabalho_1_tp1\trabalho_1\endereco_teste.cpp
+1615673457 source:d:\users\rafae\desktop\unb\matérias\3º semestre\tp1\trabalho_1\trabalho_1_tp1\trabalho_1\endereco_teste.cpp
 	"endereco_teste.hpp"
 
-1615509708 d:\users\rafae\desktop\unb\matérias\3º semestre\tp1\trabalho_1\trabalho_1_tp1\trabalho_1\endereco_teste.hpp
+1615670358 d:\users\rafae\desktop\unb\matérias\3º semestre\tp1\trabalho_1\trabalho_1_tp1\trabalho_1\endereco_teste.hpp
 	"endereco.hpp"
 
 1615465361 source:d:\users\rafae\desktop\unb\matérias\3º semestre\tp1\trabalho_1\trabalho_1_tp1\trabalho_1\descricao_teste.cpp
@@ -79,45 +84,45 @@
 1615465359 d:\users\rafae\desktop\unb\matérias\3º semestre\tp1\trabalho_1\trabalho_1_tp1\trabalho_1\descricao_teste.hpp
 	"descricao.hpp"
 
-1615592709 d:\users\rafae\desktop\unb\matérias\3º semestre\tp1\trabalho_1\trabalho_1_tp1\trabalho_1\senha_teste.hpp
+1615667555 d:\users\rafae\desktop\unb\matérias\3º semestre\tp1\trabalho_1\trabalho_1_tp1\trabalho_1\senha_teste.hpp
 	"senha.hpp"
 
-1615592710 d:\users\rafae\desktop\unb\matérias\3º semestre\tp1\trabalho_1\trabalho_1_tp1\trabalho_1\senha.hpp
+1615667555 d:\users\rafae\desktop\unb\matérias\3º semestre\tp1\trabalho_1\trabalho_1_tp1\trabalho_1\senha.hpp
 	<stdexcept>
 	<string>
 	<iostream>
 
-1615593158 d:\users\rafae\desktop\unb\matérias\3º semestre\tp1\trabalho_1\trabalho_1_tp1\trabalho_1\moeda_teste.hpp
+1615667555 d:\users\rafae\desktop\unb\matérias\3º semestre\tp1\trabalho_1\trabalho_1_tp1\trabalho_1\moeda_teste.hpp
 	"moeda.hpp"
 
-1615592708 d:\users\rafae\desktop\unb\matérias\3º semestre\tp1\trabalho_1\trabalho_1_tp1\trabalho_1\moeda.hpp
+1615667555 d:\users\rafae\desktop\unb\matérias\3º semestre\tp1\trabalho_1\trabalho_1_tp1\trabalho_1\moeda.hpp
 	<stdexcept>
 	<string>
 	<iostream>
 
-1615593671 d:\users\rafae\desktop\unb\matérias\3º semestre\tp1\trabalho_1\trabalho_1_tp1\trabalho_1\numero_teste.hpp
+1615670330 d:\users\rafae\desktop\unb\matérias\3º semestre\tp1\trabalho_1\trabalho_1_tp1\trabalho_1\numero_teste.hpp
 	"numero.hpp"
 
-1615592709 d:\users\rafae\desktop\unb\matérias\3º semestre\tp1\trabalho_1\trabalho_1_tp1\trabalho_1\numero.hpp
+1615673199 d:\users\rafae\desktop\unb\matérias\3º semestre\tp1\trabalho_1\trabalho_1_tp1\trabalho_1\numero.hpp
 	<stdexcept>
 	<iostream>
 
-1615592708 source:d:\users\rafae\desktop\unb\matérias\3º semestre\tp1\trabalho_1\trabalho_1_tp1\trabalho_1\moeda.cpp
+1615667555 source:d:\users\rafae\desktop\unb\matérias\3º semestre\tp1\trabalho_1\trabalho_1_tp1\trabalho_1\moeda.cpp
 	"moeda.hpp"
 
-1615593148 source:d:\users\rafae\desktop\unb\matérias\3º semestre\tp1\trabalho_1\trabalho_1_tp1\trabalho_1\moeda_teste.cpp
+1615667555 source:d:\users\rafae\desktop\unb\matérias\3º semestre\tp1\trabalho_1\trabalho_1_tp1\trabalho_1\moeda_teste.cpp
 	"moeda_teste.hpp"
 
-1615593677 source:d:\users\rafae\desktop\unb\matérias\3º semestre\tp1\trabalho_1\trabalho_1_tp1\trabalho_1\numero.cpp
+1615673210 source:d:\users\rafae\desktop\unb\matérias\3º semestre\tp1\trabalho_1\trabalho_1_tp1\trabalho_1\numero.cpp
 	"numero.hpp"
 
-1615593666 source:d:\users\rafae\desktop\unb\matérias\3º semestre\tp1\trabalho_1\trabalho_1_tp1\trabalho_1\numero_teste.cpp
+1615673544 source:d:\users\rafae\desktop\unb\matérias\3º semestre\tp1\trabalho_1\trabalho_1_tp1\trabalho_1\numero_teste.cpp
 	"numero_teste.hpp"
 
-1615592709 source:d:\users\rafae\desktop\unb\matérias\3º semestre\tp1\trabalho_1\trabalho_1_tp1\trabalho_1\senha.cpp
+1615667555 source:d:\users\rafae\desktop\unb\matérias\3º semestre\tp1\trabalho_1\trabalho_1_tp1\trabalho_1\senha.cpp
 	"senha.hpp"
 
-1615592709 source:d:\users\rafae\desktop\unb\matérias\3º semestre\tp1\trabalho_1\trabalho_1_tp1\trabalho_1\senha_teste.cpp
+1615667555 source:d:\users\rafae\desktop\unb\matérias\3º semestre\tp1\trabalho_1\trabalho_1_tp1\trabalho_1\senha_teste.cpp
 	"senha_teste.hpp"
 
 1615593372 d:\users\rafae\desktop\unb\matérias\3º semestre\tp1\trabalho_1\trabalho_1_tp1\trabalho_1\nome_teste.hpp
@@ -137,14 +142,93 @@
 1615597010 d:\users\rafae\desktop\unb\matérias\3º semestre\tp1\trabalho_1\trabalho_1_tp1\trabalho_1\data_teste.hpp
 	"data.hpp"
 
-1615596896 d:\users\rafae\desktop\unb\matérias\3º semestre\tp1\trabalho_1\trabalho_1_tp1\trabalho_1\data.hpp
+1615669307 d:\users\rafae\desktop\unb\matérias\3º semestre\tp1\trabalho_1\trabalho_1_tp1\trabalho_1\data.hpp
 	<stdexcept>
 	<string>
 	<iostream>
 
-1615596957 source:d:\users\rafae\desktop\unb\matérias\3º semestre\tp1\trabalho_1\trabalho_1_tp1\trabalho_1\data.cpp
+1615669442 source:d:\users\rafae\desktop\unb\matérias\3º semestre\tp1\trabalho_1\trabalho_1_tp1\trabalho_1\data.cpp
 	"data.hpp"
 
-1615597178 source:d:\users\rafae\desktop\unb\matérias\3º semestre\tp1\trabalho_1\trabalho_1_tp1\trabalho_1\data_teste.cpp
+1615671636 source:d:\users\rafae\desktop\unb\matérias\3º semestre\tp1\trabalho_1\trabalho_1_tp1\trabalho_1\data_teste.cpp
 	"data_teste.hpp"
+
+1615667555 d:\users\rafae\desktop\unb\matérias\3º semestre\tp1\trabalho_1\trabalho_1_tp1\trabalho_1\email_teste.hpp
+	"email.hpp"
+
+1615667555 d:\users\rafae\desktop\unb\matérias\3º semestre\tp1\trabalho_1\trabalho_1_tp1\trabalho_1\email.hpp
+	<stdexcept>
+	<string>
+	<iostream>
+
+1615667555 d:\users\rafae\desktop\unb\matérias\3º semestre\tp1\trabalho_1\trabalho_1_tp1\trabalho_1\telefone_teste.hpp
+	"telefone.hpp"
+
+1615667555 d:\users\rafae\desktop\unb\matérias\3º semestre\tp1\trabalho_1\trabalho_1_tp1\trabalho_1\telefone.hpp
+	<stdexcept>
+	<string>
+	<iostream>
+
+1615671336 d:\users\rafae\desktop\unb\matérias\3º semestre\tp1\trabalho_1\trabalho_1_tp1\trabalho_1\entidade_proposta_teste.hpp
+	"entidade_proposta.hpp"
+
+1615670330 d:\users\rafae\desktop\unb\matérias\3º semestre\tp1\trabalho_1\trabalho_1_tp1\trabalho_1\entidade_proposta.hpp
+	"moeda.hpp"
+	"numero.hpp"
+	"data.hpp"
+	"codigo.hpp"
+
+1615671937 d:\users\rafae\desktop\unb\matérias\3º semestre\tp1\trabalho_1\trabalho_1_tp1\trabalho_1\entidade_usuario_teste.hpp
+	"entidade_usuario.hpp"
+
+1615667555 d:\users\rafae\desktop\unb\matérias\3º semestre\tp1\trabalho_1\trabalho_1_tp1\trabalho_1\entidade_usuario.hpp
+	"nome.hpp"
+	"senha.hpp"
+	"email.hpp"
+	"telefone.hpp"
+	<stdexcept>
+	<iostream>
+
+1615667555 source:d:\users\rafae\desktop\unb\matérias\3º semestre\tp1\trabalho_1\trabalho_1_tp1\trabalho_1\telefone.cpp
+	"telefone.hpp"
+
+1615667555 source:d:\users\rafae\desktop\unb\matérias\3º semestre\tp1\trabalho_1\trabalho_1_tp1\trabalho_1\telefone_teste.cpp
+	"telefone_teste.hpp"
+
+1615667555 source:d:\users\rafae\desktop\unb\matérias\3º semestre\tp1\trabalho_1\trabalho_1_tp1\trabalho_1\email.cpp
+	"email.hpp"
+
+1615667555 source:d:\users\rafae\desktop\unb\matérias\3º semestre\tp1\trabalho_1\trabalho_1_tp1\trabalho_1\email_teste.cpp
+	"email_teste.hpp"
+
+1615667555 source:d:\users\rafae\desktop\unb\matérias\3º semestre\tp1\trabalho_1\trabalho_1_tp1\trabalho_1\entidade_proposta.cpp
+	"entidade_proposta.hpp"
+
+1615673581 source:d:\users\rafae\desktop\unb\matérias\3º semestre\tp1\trabalho_1\trabalho_1_tp1\trabalho_1\entidade_proposta_teste.cpp
+	"entidade_proposta_teste.hpp"
+
+1615667555 source:d:\users\rafae\desktop\unb\matérias\3º semestre\tp1\trabalho_1\trabalho_1_tp1\trabalho_1\entidade_usuario.cpp
+	"entidade_usuario.hpp"
+
+1615672035 source:d:\users\rafae\desktop\unb\matérias\3º semestre\tp1\trabalho_1\trabalho_1_tp1\trabalho_1\entidade_usuario_teste.cpp
+	"entidade_usuario_teste.hpp"
+
+1615672955 d:\users\rafae\desktop\unb\matérias\3º semestre\tp1\trabalho_1\trabalho_1_tp1\trabalho_1\entidade_imovel_teste.hpp
+	"entidade_imovel.hpp"
+
+1615671367 d:\users\rafae\desktop\unb\matérias\3º semestre\tp1\trabalho_1\trabalho_1_tp1\trabalho_1\entidade_imovel.hpp
+	"codigo.hpp"
+	"classe.hpp"
+	"descricao.hpp"
+	"endereco.hpp"
+	"data.hpp"
+	"numero.hpp"
+	"moeda.hpp"
+	<stdexcept>
+	<iostream>
+
+1615669879 source:d:\users\rafae\desktop\unb\matérias\3º semestre\tp1\trabalho_1\trabalho_1_tp1\trabalho_1\entidade_imovel.cpp
+
+1615673356 source:d:\users\rafae\desktop\unb\matérias\3º semestre\tp1\trabalho_1\trabalho_1_tp1\trabalho_1\entidade_imovel_teste.cpp
+	"entidade_imovel_teste.hpp"
 

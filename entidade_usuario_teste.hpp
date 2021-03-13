@@ -12,11 +12,12 @@ class TUUsuario {
         const static string VALOR_TELEFONE_VALIDO;
 
         Usuario *usuario;
-
         bool estado;
+
         void setUp();
-        void tearDown();
         void testarCenario();
+        void tearDown();
+        
     public:
         void run();
 };

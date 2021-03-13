@@ -1,14 +1,14 @@
 #include "numero_teste.hpp"
 
 void TUNumero::setUp() {
-    numero = new classeNumero;
+    numero = new Numero;
     estado = true;
 }
 
 void TUNumero::testarCenarioSucesso() {
     try {
-        numero->setNumero(VALOR_VALIDO);
-        if (numero->getNumero() != VALOR_VALIDO)
+        numero->setValor(VALOR_VALIDO);
+        if (numero->getValor() != VALOR_VALIDO)
             estado = false;
     }
     catch (invalid_argument &excecao) {
@@ -18,11 +18,11 @@ void TUNumero::testarCenarioSucesso() {
 
 void TUNumero::testarCenarioFalha() {
     try {
-        numero->setNumero(VALOR_INVALIDO);
+        numero->setValor(VALOR_INVALIDO);
         estado = false;
     }
     catch (invalid_argument &excecao) {
-        if (numero->getNumero() == VALOR_INVALIDO)
+        if (numero->getValor() == VALOR_INVALIDO)
             estado = false;
     }
 }
