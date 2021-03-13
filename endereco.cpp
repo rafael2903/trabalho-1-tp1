@@ -1,11 +1,8 @@
 #include "endereco.hpp"
-
-// size: 5 a 20
-// A-Z a-z
-// 0-9
-// . ou espaco
+//190142120
 
 bool classeEndereco::validar(string endereco) {
+
     if (endereco.length() > 20 || endereco.length() < 5) 
         return false;
 

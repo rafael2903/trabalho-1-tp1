@@ -5,6 +5,7 @@
 #include "senha_teste.hpp"
 #include "moeda_teste.hpp"
 #include "numero_teste.hpp"
+#include "email_teste.hpp"
 
 int main() {
 
@@ -28,6 +29,9 @@ int main() {
     
     TUNumero testeNumero;
     testeNumero.run();
+
+    TUEmail testeEmail;
+    testeEmail.run();
 
     return 0;
 }
