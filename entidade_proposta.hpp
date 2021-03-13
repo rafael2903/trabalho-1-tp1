@@ -1,3 +1,6 @@
+// Aluno: Luis Fernando Lamellas
+// Matrícula: 190016841
+
 #ifndef PROPOSTA_HPP_
 #define PROPOSTA_HPP_
 
@@ -5,8 +8,6 @@
 #include "numero.hpp"
 #include "data.hpp"
 #include "codigo.hpp"
-#include <stdexcept>
-#include <iostream>
 
 using namespace std;
 
@@ -17,6 +18,7 @@ class Proposta {
         Data dataFinal;
         classeNumero hospedes;
         Moeda valor;
+
     public:
         void setCodigo(const Codigo&);
         Codigo getCodigo() const;

@@ -9,6 +9,7 @@
 #include "nome_teste.hpp"
 #include "data_teste.hpp"
 #include "telefone_teste.hpp"
+#include "entidade_proposta_teste.hpp"
 
 int main() {
 
@@ -41,6 +42,9 @@ int main() {
     
     TUTelefone testeTelefone;
     testeTelefone.run();
+
+    TUProposta testeProposta;
+    testeProposta.run();
 
     return 0;
 }
