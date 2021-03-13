@@ -40,6 +40,26 @@
 		<Unit filename="endereco_teste.cpp" />
 		<Unit filename="endereco_teste.hpp" />
 		<Unit filename="main.cpp" />
+		<Unit filename="moeda.cpp" />
+		<Unit filename="moeda.hpp" />
+		<Unit filename="moeda_teste.cpp" />
+		<Unit filename="moeda_teste.hpp" />
+		<Unit filename="numero.cpp" />
+		<Unit filename="numero.hpp" />
+		<Unit filename="numero_teste.cpp" />
+		<Unit filename="numero_teste.hpp" />
+		<Unit filename="nome.cpp" />
+		<Unit filename="nome.hpp" />
+		<Unit filename="nome_teste.cpp" />
+		<Unit filename="nome_teste.hpp" />
+		<Unit filename="senha.cpp" />
+		<Unit filename="senha.hpp" />
+		<Unit filename="senha_teste.cpp" />
+		<Unit filename="senha_teste.hpp" />
+		<Unit filename="data.cpp" />
+		<Unit filename="data.hpp" />
+		<Unit filename="data_teste.cpp" />
+		<Unit filename="data_teste.hpp" />
 		<Extensions>
 			<lib_finder disable_auto="1" />
 		</Extensions>

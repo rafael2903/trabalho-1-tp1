@@ -5,6 +5,8 @@
 #include "senha_teste.hpp"
 #include "moeda_teste.hpp"
 #include "numero_teste.hpp"
+#include "nome_teste.hpp"
+#include "data_teste.hpp"
 
 int main() {
 
@@ -28,6 +30,9 @@ int main() {
     
     TUNumero testeNumero;
     testeNumero.run();
+
+    TUData testeData;
+    testeData.run();
 
     return 0;
 }

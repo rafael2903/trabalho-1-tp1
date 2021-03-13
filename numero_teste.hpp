@@ -4,7 +4,6 @@
 #include "numero.hpp"
 
 // 190142120
-
 class TUNumero {
     private:
         const static int VALOR_VALIDO = 12;

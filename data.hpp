@@ -1,5 +1,5 @@
-#ifndef NOME_HPP_
-#define NOME_HPP_
+#ifndef DATA_HPP_
+#define DATA_HPP_
 
 #include <stdexcept>
 #include <string>
@@ -8,20 +8,18 @@
 using namespace std;
 
 // 190134780
-class Nome {
+class Data {
     private:
-        string nome;
+        string data;
         bool validar(string);
-        bool isLetra(char);
-        bool isUpperCase(char);
 
     public:
         void setValor(string);
         string getValor();
 };
 
-inline string Nome::getValor() {
-    return nome;
+inline string Data::getValor() {
+    return data;
 }
 
-#endif // NOME_HPP_
+#endif // DATA_HPP_

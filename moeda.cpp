@@ -1,7 +1,8 @@
 #include "moeda.hpp"
 
 bool Moeda::validar(double valor) {
-    if(valor >= 0 && valor <= 1e6) return true;
+    if (valor >= 0 && valor <= 1e6) 
+        return true;
     return false;
 }
 

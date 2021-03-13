@@ -5,7 +5,7 @@ void TUSenha::setUp() {
     estado = true;
 }
 
-void TUSenha::testarCenarioSucesso() { //12A45
+void TUSenha::testarCenarioSucesso() { 
     try {
         objeto->setValor(VALOR_VALIDO);
         if (objeto->getValor() != VALOR_VALIDO)
@@ -16,7 +16,7 @@ void TUSenha::testarCenarioSucesso() { //12A45
     }
 }
 
-void TUSenha::testarCenarioFalha() { // 00000
+void TUSenha::testarCenarioFalha() { 
     try {
         objeto->setValor(VALOR_INVALIDO);
         estado = false;

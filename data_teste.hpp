@@ -1,15 +1,15 @@
-#ifndef NOME_TESTE_HPP_
-#define NOME_TESTE_HPP_
+#ifndef DATA_TESTE_HPP_
+#define DATA_TESTE_HPP_
 
-#include "nome.hpp"
+#include "data.hpp"
 
 // 190134780
-class TUNome {
+class TUData {
     private:
         const static string VALOR_VALIDO;
         const static string VALOR_INVALIDO;
         bool estado;
-        Nome *nome;
+        Data *data;
 
         void setUp();
         void testarCenarioSucesso();
@@ -20,4 +20,4 @@ class TUNome {
         void run();
 };
 
-#endif // NOME_TESTE_HPP_
+#endif // DATA_TESTE_HPP_
