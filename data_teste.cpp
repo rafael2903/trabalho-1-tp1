@@ -12,12 +12,11 @@ void TUData::testarCenarioSucesso() {
     try {
         data->setValor(VALOR_VALIDO);
         if (data->getValor() != VALOR_VALIDO){
-            estado = false; cout << "falhou testarCenarioSucesso try" << endl ;
+            estado = false;
         }
     }
     catch (invalid_argument &excecao) {
         estado = false;
-        cout << "falhou testarCenarioSucesso catch" << endl;
     }
 }
 
@@ -25,12 +24,10 @@ void TUData::testarCenarioFalha() {
     try {
         data->setValor(VALOR_INVALIDO);
         estado = false;
-        cout << "falhou testarCenarioFalha try" << endl;
     }
     catch (invalid_argument &excecao) {
         if (data->getValor() == VALOR_INVALIDO)
             estado = false;
-            cout << "falhou testarCenarioFalha catch" << endl;
     }
 }
 
