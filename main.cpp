@@ -35,6 +35,7 @@ int main() {
 
     TUEmail testeEmail;
     testeEmail.run();
+    
     TUData testeData;
     testeData.run();
     
