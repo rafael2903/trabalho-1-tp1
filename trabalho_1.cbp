@@ -60,6 +60,10 @@
 		<Unit filename="data.hpp" />
 		<Unit filename="data_teste.cpp" />
 		<Unit filename="data_teste.hpp" />
+		<Unit filename="telefone.cpp" />
+		<Unit filename="telefone.hpp" />
+		<Unit filename="telefone_teste.cpp" />
+		<Unit filename="telefone_teste.hpp" />
 		<Extensions>
 			<lib_finder disable_auto="1" />
 		</Extensions>

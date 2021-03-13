@@ -5,7 +5,7 @@ void TUTelefone::setUp() {
     estado = true;
 }
 
-void TUTelefone::testarCenarioSucesso() { //12A45
+void TUTelefone::testarCenarioSucesso() { 
     try {
         objeto->setValor(VALOR_VALIDO);
         if (objeto->getValor() != VALOR_VALIDO)
@@ -16,7 +16,7 @@ void TUTelefone::testarCenarioSucesso() { //12A45
     }
 }
 
-void TUTelefone::testarCenarioFalha() { // 00000
+void TUTelefone::testarCenarioFalha() {
     try {
         objeto->setValor(VALOR_INVALIDO);
         estado = false;

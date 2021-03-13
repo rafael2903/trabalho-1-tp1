@@ -1,7 +1,5 @@
 #include "telefone.hpp"
 
-const int MAX_CHAR = 256;
-
 bool Telefone::validar(string str) {
 
     // verifica tamanho
