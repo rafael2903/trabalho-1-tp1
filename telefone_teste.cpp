@@ -1,11 +1,11 @@
-#include "senha_teste.hpp"
+#include "telefone_teste.hpp"
 
-void TUSenha::setUp() {
-    objeto = new Senha;
+void TUTelefone::setUp() {
+    objeto = new Telefone;
     estado = true;
 }
 
-void TUSenha::testarCenarioSucesso() { 
+void TUTelefone::testarCenarioSucesso() { 
     try {
         objeto->setValor(VALOR_VALIDO);
         if (objeto->getValor() != VALOR_VALIDO)
@@ -16,7 +16,7 @@ void TUSenha::testarCenarioSucesso() {
     }
 }
 
-void TUSenha::testarCenarioFalha() { 
+void TUTelefone::testarCenarioFalha() {
     try {
         objeto->setValor(VALOR_INVALIDO);
         estado = false;
@@ -27,16 +27,16 @@ void TUSenha::testarCenarioFalha() {
     }
 }
 
-void TUSenha::tearDown() {
+void TUTelefone::tearDown() {
     delete objeto;
 }
 
-void TUSenha::run(){
+void TUTelefone::run(){
     setUp();
     testarCenarioSucesso();
     testarCenarioFalha();
     tearDown();
     
-    if (estado) cout << "SUCESSO - SENHA" << endl;
-    else cout << "FALHA - SENHA" << endl;
+    if (estado) cout << "SUCESSO - TELEFONE" << endl;
+    else cout << "FALHA - TELEFONE" << endl;
 }

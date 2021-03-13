@@ -5,7 +5,7 @@ void TUCodigo::setUp() {
     estado = true;
 }
 
-void TUCodigo::testarCenarioSucesso() { //12A45
+void TUCodigo::testarCenarioSucesso() { 
     try {
         objeto->setValor(VALOR_VALIDO);
         if (objeto->getValor() != VALOR_VALIDO)
@@ -16,7 +16,7 @@ void TUCodigo::testarCenarioSucesso() { //12A45
     }
 }
 
-void TUCodigo::testarCenarioFalha() { // 00000
+void TUCodigo::testarCenarioFalha() { 
     try {
         objeto->setValor(VALOR_INVALIDO);
         estado = false;

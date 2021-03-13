@@ -12,6 +12,8 @@ class Nome {
     private:
         string nome;
         bool validar(string);
+        bool isLetra(char);
+        bool isUpperCase(char);
 
     public:
         void setValor(string);

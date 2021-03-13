@@ -1,15 +1,15 @@
-#ifndef DESCRICAO_TESTE_HPP_
-#define DESCRICAO_TESTE_HPP_
+#ifndef DATA_TESTE_HPP_
+#define DATA_TESTE_HPP_
 
-#include "descricao.hpp"
+#include "data.hpp"
 
 // 190134780
-class TUDescricao {
+class TUData {
     private:
         const static string VALOR_VALIDO;
         const static string VALOR_INVALIDO;
         bool estado;
-        Descricao *descricao;
+        Data *data;
 
         void setUp();
         void testarCenarioSucesso();
@@ -20,4 +20,4 @@ class TUDescricao {
         void run();
 };
 
-#endif // DESCRICAO_TESTE_HPP_
+#endif // DATA_TESTE_HPP_

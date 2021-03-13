@@ -1,5 +1,4 @@
 #include "numero.hpp"
-//190142120
 
 bool classeNumero::validar(int numero) {
     if (numero < 0 || numero > 20 ) {

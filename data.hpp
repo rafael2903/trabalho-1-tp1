@@ -1,5 +1,5 @@
-#ifndef DESCRICAO_HPP_
-#define DESCRICAO_HPP_
+#ifndef DATA_HPP_
+#define DATA_HPP_
 
 #include <stdexcept>
 #include <string>
@@ -8,9 +8,9 @@
 using namespace std;
 
 // 190134780
-class Descricao {
+class Data {
     private:
-        string descricao;
+        string data;
         bool validar(string);
 
     public:
@@ -18,8 +18,8 @@ class Descricao {
         string getValor();
 };
 
-inline string Descricao::getValor() {
-    return descricao;
+inline string Data::getValor() {
+    return data;
 }
 
-#endif  // DESCRICAO_HPP_
+#endif // DATA_HPP_

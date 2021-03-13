@@ -1,7 +1,5 @@
 #include "numero_teste.hpp"
 
-//190142120
-
 void TUNumero::setUp() {
     numero = new classeNumero;
     estado = true;

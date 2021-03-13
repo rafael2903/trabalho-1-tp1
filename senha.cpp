@@ -3,11 +3,15 @@
 const int MAX_CHAR = 256;
 
 bool caracteresUnicos(string str) {
-    if(str.length() > MAX_CHAR) return false;
+    if(str.length() > MAX_CHAR) 
+        return false;
+
     bool chars[MAX_CHAR] = {0};
-    for(int i = 0; i < str.length(); i++) {
-        if(chars[int (str[i])] == true) return false;
-        chars[int(str[i])] = true;
+
+    for (int i = 0; i < str.length(); i++) {
+        if (chars[int (str[i])] == true) 
+            return false;
+        chars[int (str[i])] = true;
     }
     return true;
 }
@@ -29,9 +33,9 @@ bool Senha::validar(string senha) {
         }
 
         // conefere se possui caractere obrigatório
-        if(senha[i] >= '0' && senha[i] <= '9') digit = true;
-        if(senha[i] >= 'A' && senha[i] <= 'Z') max = true;
-        if(senha[i] >= 'a' && senha[i] <= 'z') min = true;
+        if (senha[i] >= '0' && senha[i] <= '9') digit = true;
+        if (senha[i] >= 'A' && senha[i] <= 'Z') max = true;
+        if (senha[i] >= 'a' && senha[i] <= 'z') min = true;
     }
 
     // conefere se possui todos os caracteres obrigatórios
