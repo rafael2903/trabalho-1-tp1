@@ -13,6 +13,10 @@
 
 using namespace std;
 
+///
+/// Padrão para representação de imóvel.
+///
+
 // 190134780
 class Imovel {
     private:
@@ -26,28 +30,134 @@ class Imovel {
         Moeda valor;
         
     public:
+
+///
+/// Armazena código informado.
+///
+/// @param Código.
+///
+
         void setCodigo(const Codigo&);
+
+///
+/// Retorna código.
+///
+/// @return Código.
+///
+
         Codigo getCodigo() const;
-        
+
+
+///
+/// Armazena classe informada.
+///
+/// @param Classe.
+///
+
         void setClasse(const Classe&);
+
+///
+/// Retorna classe.
+///
+/// @return Classe.
+///
+
         Classe getClasse() const;
 
+///
+/// Armazena descrição informada.
+///
+/// @param Descrição.
+///
+
         void setDescricao(const Descricao&);
+
+///
+/// Retorna descrição.
+///
+/// @return Descrição.
+///
+
         Descricao getDescricao() const;
 
+///
+/// Armazena endereço informado.
+///
+/// @param Endereço.
+///
+
         void setEndereco(const Endereco&);
+
+///
+/// Retorna endereço.
+///
+/// @return Endereço.
+///
+
         Endereco getEndereco() const;
 
+///
+/// Armazena data inicial informada.
+///
+/// @param Data.
+///
+
         void setDataInicial(const Data&);
+
+///
+/// Retorna data inicial.
+///
+/// @return Data.
+///
+
         Data getDataInicial() const;
 
+///
+/// Armazena data final informada.
+///
+/// @param Data.
+///
+
         void setDataFinal(const Data&);
+
+///
+/// Retorna data final.
+///
+/// @return Data.
+///
+
         Data getDataFinal() const;
 
+///
+/// Armazena número de hóspedes informado.
+///
+/// @param Numero.
+///
+
         void setHospedes(const Numero&);
+
+///
+/// Retorna número de hóspedes.
+///
+/// @return Numero.
+///
+
         Numero getHospedes() const;
 
+///
+/// Armazena valor informado.
+///
+/// @param Moeda.
+///
+
         void setValor(const Moeda&);
+
+///
+/// Retorna valor.
+///
+/// @return Moeda.
+///
+
         Moeda getValor() const;
 
 };
