@@ -5,7 +5,7 @@
 
 bool Codigo::validar(string codigo) {
 
-    // verifica sequência específica inválida
+    // verifica sequência inválida específica
     if (codigo == "00000") 
         return false;
 

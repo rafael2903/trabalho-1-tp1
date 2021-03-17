@@ -6,6 +6,14 @@
 
 using namespace std;
 
+///
+/// Padrão para representação de nome.
+///
+/// Regras de formato:
+///
+/// - Número é valido de 0 a 20
+///
+
 //190142120
 class Numero {
     private:
@@ -13,7 +21,25 @@ class Numero {
         bool validar(int);
         
     public:
+
+///
+/// Armazena numero informada caso a mesma seja válida.
+///
+/// Lança exceção caso a numero informada seja inválida.
+///
+/// @param int numero.
+///
+/// @throw invalid_argument
+///
+
         void setValor(int);
+
+///
+/// Retorna numero.
+///
+/// @return int Numero.
+///
+
         int getValor();
 };
 
