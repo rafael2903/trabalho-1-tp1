@@ -11,6 +11,10 @@
 
 using namespace std;
 
+///
+/// Padrão para representação de proposta.
+///
+
 class Proposta {
     private:
         Codigo codigo;
@@ -20,19 +24,85 @@ class Proposta {
         Moeda valor;
 
     public:
+
+///
+/// Armazena código informado.
+///
+/// @param Codigo.
+///
+
         void setCodigo(const Codigo&);
+
+///
+/// Retorna código.
+///
+/// @return Codigo.
+///
+
         Codigo getCodigo() const;
 
+///
+/// Armazena data inicial informada.
+///
+/// @param Data.
+///
+
         void setDataInicial(const Data&);
+
+///
+/// Retorna data inicial.
+///
+/// @return Data.
+///
+
         Data getDataInicial() const;
 
+///
+/// Armazena data final informada.
+///
+/// @param Data.
+///
+
         void setDataFinal(const Data&);
+
+///
+/// Retorna data final.
+///
+/// @return Data.
+///
+
         Data getDataFinal() const;
 
+///
+/// Armazena hóspedes informado.
+///
+/// @param Numero.
+///
+
         void setHospedes(const Numero&);
+
+///
+/// Retorna hóspedes.
+///
+/// @return Numero.
+///
+
         Numero getHospedes() const;
 
+///
+/// Armazena valor informado.
+///
+/// @param Moeda.
+///
+
         void setValor(const Moeda&);
+
+///
+/// Retorna valor.
+///
+/// @return Moeda.
+///
+
         Moeda getValor() const;
 };
 
