@@ -12,6 +12,11 @@
 
 using namespace std;
 
+///
+/// Padrão para representação de imóvel.
+///
+
+//190142120
 class Usuario {
     private:
         Nome nome;
@@ -20,16 +25,69 @@ class Usuario {
         Telefone telefone;
         
     public:
+
+///
+/// Armazena nome informado.
+///
+/// @param Nome.
+///
+
         void setNome(const Nome&);
+
+///
+/// Retorna nome.
+///
+/// @return Nome.
+///
+
         Nome getNome() const;
+
+///
+/// Armazena senha informado.
+///
+/// @param Senha.
+///
         
         void setSenha(const Senha&);
+
+///
+/// Retorna senha.
+///
+/// @return Senha.
+///
+
         Senha getSenha() const;
 
+///
+/// Armazena email informado.
+///
+/// @param Email.
+///        
+
         void setEmail(const Email&);
+
+///
+/// Retorna email.
+///
+/// @return Email.
+///
+
         Email getEmail() const;
+        
+///
+/// Armazena telefone informado.
+///
+/// @param Telefone.
+///
 
         void setTelefone(const Telefone&);
+
+///
+/// Retorna telefone.
+///
+/// @return Telefone.
+///
+
         Telefone getTelefone() const;
 
 };
