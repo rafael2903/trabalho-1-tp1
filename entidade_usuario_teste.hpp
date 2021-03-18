@@ -1,11 +1,9 @@
-// 190142120
-
 #ifndef USUARIO_TESTE_HPP_
 #define USUARIO_TESTE_HPP_
 
-
 #include "entidade_usuario.hpp"
 
+// 190142120
 class TUUsuario {
     private:
         const static string VALOR_NOME_VALIDO;

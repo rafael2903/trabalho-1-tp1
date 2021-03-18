@@ -20,7 +20,6 @@ using namespace std;
 ///
 
 //190142120
-
 class Email {
     private:
         string email;

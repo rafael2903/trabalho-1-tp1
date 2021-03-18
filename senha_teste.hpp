@@ -6,7 +6,6 @@
 
 #include "senha.hpp"
 
-// 190016841
 class TUSenha {
     private:
         string VALOR_VALIDO = "aA0123";
