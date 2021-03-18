@@ -12,7 +12,7 @@ class TUImovel {
         const static string VALOR_ENDERECO_VALIDO;
         const static string VALOR_DATA_VALIDO;
         const static int VALOR_NUMERO_VALIDO = 12;
-        const static int VALOR_MOEDA_VALIDO = 10000;
+        const static string VALOR_MOEDA_VALIDO;
 
         Codigo codigo;
         Classe classe;

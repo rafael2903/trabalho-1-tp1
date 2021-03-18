@@ -1,3 +1,5 @@
+// 190142120
+
 #include  "entidade_usuario_teste.hpp"
 
 const string TUUsuario::VALOR_NOME_VALIDO = " R.a.F.a.E.l Rodrigues ";

@@ -21,7 +21,9 @@ class Endereco {
     private:
         string endereco;
         bool validar(string);
-        
+
+    public:
+
 ///
 /// Armazena endereço informada caso a mesma seja válida.
 ///
@@ -32,8 +34,13 @@ class Endereco {
 /// @throw invalid_argument
 ///
 
-    public:
         void setValor(string);
+///
+/// Retorna endereco.
+///
+/// @return string endereco.
+///       
+
         string getValor();
 };
 

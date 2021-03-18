@@ -4,6 +4,7 @@ const string TUImovel::VALOR_CODIGO_VALIDO = "12A45";
 const string TUImovel::VALOR_DESCRICAO_VALIDO = "rafael.";
 const string TUImovel::VALOR_ENDERECO_VALIDO = "Ana mora em. 407.";
 const string TUImovel::VALOR_DATA_VALIDO = "15-11-22";
+const string TUImovel::VALOR_MOEDA_VALIDO = "10.000,00";
 
 void TUImovel::setUp() {
     imovel = new Imovel();

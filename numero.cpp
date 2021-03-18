@@ -1,6 +1,8 @@
 #include "numero.hpp"
 
 bool Numero::validar(int numero) {
+    
+    //verifica se o numero esta fora do intervalo de 5 a 20
     if (numero < 0 || numero > 20 ) {
         return false;
     }

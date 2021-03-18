@@ -8,8 +8,8 @@
 
 class TUMoeda {
     private:
-        double VALOR_VALIDO = 10000;
-        double VALOR_INVALIDO = -1000;
+        string VALOR_VALIDO = "10.000,00";
+        string VALOR_INVALIDO = "10.00.000,00";
         bool estado;
         Moeda *objeto;
 
